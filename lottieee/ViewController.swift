@@ -7,12 +7,26 @@
 //
 
 import UIKit
+import Lottie
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        if let animationView = LOTAnimationView(name: "servishero_loading") {
+            
+            animationView.frame = CGRect(x: 0, y: 0, width: 400, height: 400)
+            animationView.center = self.view.center
+            animationView.contentMode = .scaleAspectFill
+            
+            view.addSubview(animationView)
+            animationView.play()
+            animationView.loopAnimation = true
+            animationView.animationSpeed = 0.5
+        }
+        
     }
 
     override func didReceiveMemoryWarning() {

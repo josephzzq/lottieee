@@ -12,6 +12,7 @@
 		114AAA5E1EFD0A1B0059165C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 114AAA5C1EFD0A1B0059165C /* Main.storyboard */; };
 		114AAA601EFD0A1B0059165C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 114AAA5F1EFD0A1B0059165C /* Assets.xcassets */; };
 		114AAA631EFD0A1B0059165C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 114AAA611EFD0A1B0059165C /* LaunchScreen.storyboard */; };
+		1191A32B1EFD0CF700F0BD07 /* servishero_loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 1191A32A1EFD0CF700F0BD07 /* servishero_loading.json */; };
 		D291588052A00C0C5B682D2A /* Pods_lottieee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB5D8E678D160F3D737EE4F6 /* Pods_lottieee.framework */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 		114AAA5F1EFD0A1B0059165C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		114AAA621EFD0A1B0059165C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		114AAA641EFD0A1B0059165C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1191A32A1EFD0CF700F0BD07 /* servishero_loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = servishero_loading.json; sourceTree = "<group>"; };
 		AD817E4BC54312252D24889E /* Pods-lottieee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lottieee.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lottieee/Pods-lottieee.debug.xcconfig"; sourceTree = "<group>"; };
 		B0A42F2E1FA28738CA85F2FC /* Pods-lottieee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lottieee.release.xcconfig"; path = "Pods/Target Support Files/Pods-lottieee/Pods-lottieee.release.xcconfig"; sourceTree = "<group>"; };
 		CB5D8E678D160F3D737EE4F6 /* Pods_lottieee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lottieee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,6 +63,7 @@
 		114AAA571EFD0A1B0059165C /* lottieee */ = {
 			isa = PBXGroup;
 			children = (
+				1191A32A1EFD0CF700F0BD07 /* servishero_loading.json */,
 				114AAA581EFD0A1B0059165C /* AppDelegate.swift */,
 				114AAA5A1EFD0A1B0059165C /* ViewController.swift */,
 				114AAA5C1EFD0A1B0059165C /* Main.storyboard */,
@@ -153,6 +156,7 @@
 			files = (
 				114AAA631EFD0A1B0059165C /* LaunchScreen.storyboard in Resources */,
 				114AAA601EFD0A1B0059165C /* Assets.xcassets in Resources */,
+				1191A32B1EFD0CF700F0BD07 /* servishero_loading.json in Resources */,
 				114AAA5E1EFD0A1B0059165C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -377,6 +381,7 @@
 				114AAA691EFD0A1B0059165C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
