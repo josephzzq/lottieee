@@ -96,7 +96,7 @@
 				TargetAttributes = {
 					114AAA541EFD0A1B0059165C = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = Z2J2588VLY;
+						DevelopmentTeam = BSPG965L6Z;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -259,7 +259,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = Z2J2588VLY;
+				DEVELOPMENT_TEAM = BSPG965L6Z;
 				INFOPLIST_FILE = lottieee/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.joejoejoseph.lottieee;
@@ -272,7 +272,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = Z2J2588VLY;
+				DEVELOPMENT_TEAM = BSPG965L6Z;
 				INFOPLIST_FILE = lottieee/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.joejoejoseph.lottieee;
